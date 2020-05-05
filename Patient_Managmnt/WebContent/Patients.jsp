@@ -21,11 +21,6 @@
   padding: 40px;
  
 }
-
- 
-
-
-
 </style>
 <script src="Components/jquery-3.4.1.min.js"></script> 
 <script src="Components/patient.js"></script> 
