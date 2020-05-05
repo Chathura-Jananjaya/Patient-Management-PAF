@@ -173,7 +173,7 @@ function validatePatientForm()
 	 var tmpPhone = $("#pno").val().trim();
 	if (!$.isNumeric(tmpPhone)) 
 	 {
-	 return "Insert Numeric value for Phone Number!";
+	 return "Invalid Telephone Number!";
 	 }
 
 	return true; 
