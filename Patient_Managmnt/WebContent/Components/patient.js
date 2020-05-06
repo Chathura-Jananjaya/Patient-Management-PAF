@@ -1,10 +1,10 @@
 $(document).ready(function() 
-{  
-	if ($("#alertSuccess").text().trim() == "")  
-	{   
-		$("#alertSuccess").hide();  
-	}  
-	$("#alertError").hide(); }); 
+{
+	
+	    $("#alertSuccess").hide();   
+	    $("#alertError").hide();
+ 
+});
  
  
 // SAVE ============================================ 
