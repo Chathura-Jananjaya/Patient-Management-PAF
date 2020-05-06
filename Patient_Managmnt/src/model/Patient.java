@@ -93,7 +93,7 @@ public class Patient {
 				String pID = Integer.toString(rs.getInt("pID"));
 				 String pName = rs.getString("pName");
 				 String pAddress = rs.getString("pAddress");
-				 String pEmail = rs.getString("pEmail");
+				 String pEmail = rs.getString("pEmail").replace("%40", "@");
 				 String pBDate = rs.getString("pBDate");
 				 String nic = rs.getString("nic");
 				 String pno = rs.getString("pno"); 
